@@ -1,12 +1,11 @@
 package person;
 public class Person {
-    // Properties
+ 
     private String name;
     private int age;
     private String gender;
     private String address;
 
-    // Constructor
     public Person(String name, int age, String gender, String address) {
         this.name = name;
         this.age = age;
@@ -14,7 +13,6 @@ public class Person {
         this.address = address;
     }
 
-    // Getter and Setter for name
     public String getName() {
         return name;
     }
@@ -23,7 +21,6 @@ public class Person {
         this.name = name;
     }
 
-    // Getter and Setter for age
     public int getAge() {
         return age;
     }
@@ -35,8 +32,6 @@ public class Person {
             System.out.println("Age must be positive");
         }
     }
-
-    // Getter and Setter for gender
     public String getGender() {
         return gender;
     }
@@ -45,7 +40,6 @@ public class Person {
         this.gender = gender;
     }
 
-    // Getter and Setter for address
     public String getAddress() {
         return address;
     }
@@ -54,31 +48,27 @@ public class Person {
         this.address = address;
     }
 
-    // Main method to test the class
     public static void main(String[] args) {
         // Creating an object of Person class
         Person person = new Person("John Doe", 25, "Male", "123 Main St");
 
-        // Accessing the properties using getter methods
         System.out.println("Name: " + person.getName());
         System.out.println("Age: " + person.getAge());
         System.out.println("Gender: " + person.getGender());
         System.out.println("Address: " + person.getAddress());
 
-        // Modifying properties using setter methods
         person.setName("Jane Doe");
         person.setAge(30);
         person.setGender("Female");
         person.setAddress("456 Elm St");
 
-        // Displaying modified properties
         System.out.println("\nUpdated Information:");
         System.out.println("Name: " + person.getName());
         System.out.println("Age: " + person.getAge());
         System.out.println("Gender: " + person.getGender());
         System.out.println("Address: " + person.getAddress());
     }
-}
+}*/
 /*public class Person {
     private String name;
     private int age;
@@ -173,7 +163,7 @@ public class Person {
         System.out.println("\nPerson 1 after using setters:");
         person1.printDetails();
     }
-}
+}*/
 
 /*public class Person {
     private String name;
